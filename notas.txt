@@ -21,6 +21,12 @@ Métodos de los arreglos:
 - map(), find(), foreach(), filter(), some(), join(), split()
 
 
+* push(): método que agrega un elemento a la última posición
+* pop(): método que elimina la última posición
+* shift(): método que elimina la primera posición
+* unshift(): método que agrega un elemento a la primera posición
+* splice((empieza y elimina)posicion y cantidad de elementos): método para eliminar un elemento seleccionado 
+
 
 
 

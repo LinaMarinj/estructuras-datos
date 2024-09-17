@@ -64,7 +64,7 @@ for (let index = 0; index < 6; index++) {
      
  } */
 
-
+/* 
 let personas = [];
 let edades = [];
 
@@ -83,10 +83,41 @@ for (let index = 0; index < 5; index++) {
     if (edades[index] >= 18) {
         console.log("La persona: " + personas[index] + " tiene " + edades[index] + " años")
     }
-}
+} */
+
+
+//métodos en Java Script 
+
+
+//push
+
+/* let nombres = ["Andrea"];
+console.log(nombres);
+nombres.push("Jaime");
+nombres.push("Luisa");
+nombres.push("Camila");
+console.log(nombres); */
 
 
 
 
+/* 
+let nombres = ["Andrea"];
+console.log(nombres);
+nombres.push("Jaime"); //push agrega en la ultima posición
+nombres.push("Luisa");
+nombres.push("Camila");
+nombres.unshift("Camilo");  //unshift agrega en la primera posición
+nombres.unshift("Karen");
+console.log(nombres);
+nombres.pop();  //elimina la última posición
+console.log(nombres);
+nombres.shift();  //elimina la primera posición 
+console.log(nombres);
+ */
 
 
+
+/* let numeros = [1, 2, 3, 4, 5, 6, 7,8,9];
+numeros.splice(0,1);
+console.log(numeros); */
