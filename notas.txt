@@ -2,5 +2,29 @@ Estructuras de datos (Java script)
 
 1 - Arreglos (vectores)
     Simulación de datos (almacenamiento)
+
+* Los arreglos no tiene tipo de dato en java script 
+* Tamaño o longitud -> Dado por la cantidad de elementos dentro del mismo
+* Posición -> Dado por la ecuación n-1, donde n es el elemento
+* Los arreglos estan asociados al ciclo for 
+
+--> Recorrido de un arreglo -> Es la iteración dentro del arreglo por cada
+elemento: buscar contenido y relaizar alguna operación matemática o booleana
+
+
+--> llenado de un arreglo: Es la iteración dentro del arreglo por cada
+elemento: agrega contenido a una posición del arreglo
+
+Métodos de los arreglos:
+
+-push(), pop(), shift(), unshift(),
+- map(), find(), foreach(), filter(), some(), join(), split()
+
+
+
+
+
 2 - Objetos
     Agrupación de información de un mismo elemento
+
+
