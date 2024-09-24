@@ -25,9 +25,16 @@ Métodos de los arreglos:
 * pop(): método que elimina la última posición
 * shift(): método que elimina la primera posición
 * unshift(): método que agrega un elemento a la primera posición
-* splice((empieza y elimina)posicion y cantidad de elementos): método para eliminar un elemento seleccionado 
+* splice((empieza y elimina)posicion y cantidad de elementos): método para eliminar un 
+elemento seleccionado.
+
+* map() -> método que recorre un arreglo, aplica una condición y retorna 
+un nuevo arreglo con la nueva información. El método map es un método no mutable, 
+significa que no cambia el valor original de arreglo
 
 
+
+*find() -> método que recorre
 
 
 2 - Objetos

@@ -121,3 +121,77 @@ console.log(nombres);
 /* let numeros = [1, 2, 3, 4, 5, 6, 7,8,9];
 numeros.splice(0,1);
 console.log(numeros); */
+
+
+/* let numeros = [1, 2, 3, 4, 5, 6, 7, 8,];
+
+let numerosPares = numeros.map(function (numero) {
+
+    return numero * 4 */
+/*  if (numero % 2 == 0) {
+     return numerosPares
+ } */
+/* })
+console.log(numerosPares)
+console.log(numeros) */
+
+
+/* numeros.map(function(numero){  //función regular
+    console.log(numero)
+    
+}); */
+
+/* numeros.map((numero)=>{     //funcion flecha anónimas
+ console.log(numero)
+});  */
+
+
+
+
+
+/* let nombres = ["Ana", "Camila", "Andrea", "Felipe"]
+let nombresCompletos = nombres.map((nombre) => {
+    return nombre + " Zapata";
+})
+
+console.log(nombresCompletos); */
+
+
+//método filter//
+
+
+
+/* 
+let nombres = ["Luisa", "Camila", "Ana", "Luisa", "Miguel",    //buscar nombre por consola
+    "Adriana", "Andrea", "Felipe", "Camilo", "Ana"]
+
+    let nombreTeclato = prompt("Ingrese el nombre a buscar")
+    let nombresNuevos = nombres.filter((nombre) => {
+       if (nombre == nombreTeclato){
+        return nombre
+       }
+    })
+ */
+/* let nombres = ["Luisa", "Camila", "Ana", "Luisa", "Miguel", 
+    "Adriana", "Andrea", "Felipe", "Camilo", "Ana"]
+
+
+
+    let nombresNuevos = nombres.filter((nombre) => {
+       if (nombre == "Ana" || nombre == "Luisa"){
+        return nombre
+       }
+    }) */
+   /*     console.log(nombresNuevos); */
+
+
+   //método find
+
+   let nombres = ["Luisa", "Camila", "Ana", "Luisa", "Miguel",    //retorna el primer elemento que encuentre y retorna el elemento solo (no como arreglo) 
+    "Adriana", "Andrea", "Felipe", "Camilo", "Ana"]
+    let nuevoNombre = nombres.find((nombre)=>{
+        if (nombre == "Ana"){
+            return nombre
+        }
+    })
+    console.log(nuevoNombre);
