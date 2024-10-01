@@ -182,16 +182,116 @@ let nombres = ["Luisa", "Camila", "Ana", "Luisa", "Miguel",    //buscar nombre p
         return nombre
        }
     }) */
-   /*     console.log(nombresNuevos); */
+/*     console.log(nombresNuevos); */
 
 
-   //método find
+//método find
 
-   let nombres = ["Luisa", "Camila", "Ana", "Luisa", "Miguel",    //retorna el primer elemento que encuentre y retorna el elemento solo (no como arreglo) 
+/*    let nombres = ["Luisa", "Camila", "Ana", "Luisa", "Miguel",    //retorna el primer elemento que encuentre y retorna el elemento solo (no como arreglo) 
     "Adriana", "Andrea", "Felipe", "Camilo", "Ana"]
     let nuevoNombre = nombres.find((nombre)=>{
         if (nombre == "Ana"){
             return nombre
         }
     })
-    console.log(nuevoNombre);
+    console.log(nuevoNombre); */
+
+
+//________________________________________________________________
+
+
+
+//OBJETO LITERAL
+
+/* let objetoUno = {
+    "nombre": "Jaime",
+    "id": 10203040
+
+}
+
+let objetoDos = {
+    "nombre": "Jaime",
+    "id": 9900234,
+    "telefono": "5505550",
+    "direccion": "AV 34-20" 
+
+}
+
+let nuevoArreglo = [objetoUno, "Ana", objetoDos, "Luisa"];
+console.log(nuevoArreglo);
+
+for (let index = 0; index < 4; index++) {
+    if (nuevoArreglo[index].id == 9900234) {
+     console.log(nuevoArreglo[index])  
+    }
+    
+}
+ */
+/* 
+let persona = {
+    "nombre": "Jaime Zapata",
+    "edad": 33,
+    "profesion": "Developer",
+    "direccion": {
+        "calle": 20,
+        "carrera": 45,
+        "barrio": "Niquia"
+    },
+
+    "hobbies": ["Caminar", "Comer", "Dormir"]
+}
+
+
+let personaDos = {
+    "nombre": "Camila Restrepo",
+    "edad": 33,
+    "profesion": "Developer",
+    "direccion": {
+        "calle": 20,
+        "carrera": 45,
+        "barrio": "Niquia"
+    },
+
+    "hobbies": ["Caminar", "Comer", "Dormir"]
+}
+
+console.log(persona); */
+
+
+
+//________________________________________________________________
+
+
+//OBJETO POR CONSTRUCTOR
+
+function Persona(nombre, edad, profesion){
+    this.nombre = nombre
+    this.edad = edad
+    this.prfesion = profesion
+
+}
+
+let nuevoObjetoUno= new Persona("Jaime Zapata", 33, "Ing Sistemas")
+let nuevoObjetoDos= new Persona("Camila Restrepo", 38, "Ing Software")
+
+
+console.log(nuevoObjetoUno, nuevoObjetoDos)
+
+
+//________________________________________________________________
+
+let persona = {
+    "nombre": "Jaime",
+    "edad": "33",
+    "profesion": "Developer",
+}
+
+let personaDos = {
+    "nombre": "Ana",
+    "edad": "28",
+    "profesion": "UX,UI",
+}
+
+
+
+console.log(persona, personaDos)

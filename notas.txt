@@ -34,10 +34,28 @@ significa que no cambia el valor original de arreglo
 
 
 
-*find() -> método que recorre
+*find() -> método que recorre un arreglo, aplica una condición y retorna un elemento. El método filter es no mutable, significa que no cambia el valor original del arreglo  
 
+
+Arreglos (vectores)
+Métodos de los arreglos 
+some()
+join(), split()
+
+________________________________________________________________
 
 2 - Objetos
-    Agrupación de información de un mismo elemento
 
+    Agrupación de información de un mismo elemento.
+    Par de satos -> "llave": valor. Un objeto podra tener 
+    multiples pares de datos 
+
+Literales  -> Es construir los objetos directos con sus atributos 
+Constructor ->  Es crear un objeto que parte de una clase o función superior 
+(Instancia de objetos)
+
+
+
+
+DOM
 
